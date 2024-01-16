@@ -34,7 +34,11 @@
               <a class="footer-logo" href="#">
                 <img src="/assets/img/logo.png" class="white-logo" alt="logo">
               </a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco consectetur laboris.</p>
+              <p>
+                We are a dynamic software development agency dedicated to crafting cutting-edge solutions
+                that elevate businesses. With a passionate team of skilled developers, we specialize in delivering
+                innovative and scalable software tailored to meet your unique needs
+              </p>
               <ul class="footer-social">
                 <li>
                   <a href="#"> <i class="fab fa-facebook-f"></i></a>
