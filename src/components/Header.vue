@@ -9,9 +9,10 @@
     <div class="techvio-responsive-nav">
       <div class="container">
         <div class="techvio-responsive-menu">
-          <div class="logo">
-            <router-link to="/">
-              CLUSTER
+          <div class="logo w-100">
+            <router-link to="/" class="text-center">
+              <span class="white-logo text-white">VEHITRADE</span>
+              <span class="black-logo text-black">VEHITRADE</span>
             </router-link>
           </div>
         </div>
@@ -21,7 +22,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-md navbar-light">
           <router-link to="/" class="navbar-brand text-white font-weight-bold">
-         <b> CLUSTER</b>
+         <b> VEHITRADE</b>
           </router-link>
           <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
             <ul class="navbar-nav">

@@ -26,8 +26,8 @@ import Blog from "../components/Blog.vue";
                   tailored to meet your unique needs
                 </p>
                 <div class="banner-btn">
-                  <a class="default-btn-one" href="services.html">Our Service <span></span></a>
-                  <a class="default-btn-two" href="contact.html">Contact Us <span></span></a>
+                  <router-link class="default-btn-one" to="/about">Our Service <span></span></router-link  >
+                  <router-link class="default-btn-two" to="/contact">Contact Us <span></span></router-link>
                 </div>
               </div>
             </div>

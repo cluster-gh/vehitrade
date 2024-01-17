@@ -31,28 +31,16 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="single-footer-widget">
-              <a class="footer-logo" href="#">
-                <img src="./../assets/img/logo.png" class="white-logo" alt="logo">
+              <a class="footer-logo text-white" href="#">
+                <b>VEHITRADE</b>
+               
               </a>
               <p>
                 We are a dynamic software development agency dedicated to crafting cutting-edge solutions
                 that elevate businesses. With a passionate team of skilled developers, we specialize in delivering
                 innovative and scalable software tailored to meet your unique needs
               </p>
-              <ul class="footer-social">
-                <li>
-                  <a href="#"> <i class="fab fa-facebook-f"></i></a>
-                </li>
-                <li>
-                  <a href="#"> <i class="fab fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#"> <i class="fab fa-youtube"></i></a>
-                </li>
-                <li>
-                  <a href="#"> <i class="fab fa-linkedin"></i></a>
-                </li>
-              </ul>
+          
             </div>
           </div>
           <div class="col-lg-2 col-md-6 col-sm-6">
