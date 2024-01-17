@@ -1,6 +1,5 @@
 <script setup lang="ts">
 
-import {authors, randomize} from "../utils";
 import {blogs} from '../utils/data'
 import Blog from "../components/Blog.vue";
 </script>
