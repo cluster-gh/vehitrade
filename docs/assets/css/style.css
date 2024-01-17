@@ -4290,7 +4290,7 @@ blockquote::after, .blockquote::after {
 	position: relative;
 	z-index: 1;
 	height: 400px;
-	background-image: url(../img/page-title-bg.jpg);
+	background-image: url(../../../src/assets/img/page-title-bg.jpg);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4362,11 +4362,11 @@ blockquote::after, .blockquote::after {
 }
 
 .item-bg1 {
-	background-image: url(../img/page-title-bg-2.jpg);
+	background-image: url(../../../src/assets/img/page-title-bg-2.jpg);
 }
 
 .item-bg2 {
-	background-image: url(../img/page-title-bg-3.jpg);
+	background-image: url(../../../src/assets/img/page-title-bg-3.jpg);
 }
 
 /**********************************
@@ -4375,7 +4375,7 @@ blockquote::after, .blockquote::after {
 .contact-section {
 	position: relative;
     z-index: 1;
-    background: url(../img/dot-bg.png);
+    background: url(../../../src/assets/img/dot-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

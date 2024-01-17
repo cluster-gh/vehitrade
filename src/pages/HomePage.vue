@@ -1,5 +1,6 @@
 <script setup lang="ts">
 
+import Service from "../components/Service.vue";
 </script>
 
 <template>
@@ -60,76 +61,36 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="single-services-item">
-            <div class="services-icon">
-              <i class="flaticon-development"></i>
-            </div>
-            <h3>Web Development</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-            <div class="services-btn">
-              <a href="#" class="read-more"><i class="bi bi-arrow-right-short"></i> Read More</a>
-            </div>
-          </div>
+          <Service title="Web Development"
+                   text="Crafting responsive and innovative web solutions tailored to elevate your online presence."
+          ></Service>
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="single-services-item">
-            <div class="services-icon">
-              <i class="flaticon-targeted-marketing"></i>
-            </div>
-            <h3>Digital Marketing</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-            <div class="services-btn">
-              <a href="#" class="read-more"><i class="bi bi-arrow-right-short"></i> Read More</a>
-            </div>
-          </div>
+          <Service title="Digital Marketing"
+                   text="Elevate your brand and reach new heights with our data-driven digital marketing strategies."
+                   icon="flaticon-targeted-marketing" />
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <Service title="Startup Solutions"
+                   text="Empowering startups with comprehensive solutions for success in a dynamic business landscape."
+                   icon="flaticon-analytics" />
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="single-services-item">
-            <div class="services-icon">
-              <i class="flaticon-analytics"></i>
-            </div>
-            <h3>Startup Solutions</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-            <div class="services-btn">
-              <a href="#" class="read-more"><i class="bi bi-arrow-right-short"></i> Read More</a>
-            </div>
-          </div>
+          <Service title="Networking Services"
+                   text="Connecting businesses seamlessly with our top-tier networking services for optimal efficiency and performance."
+                   icon="flaticon-super-intelligence" />
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="single-services-item">
-            <div class="services-icon">
-              <i class="flaticon-super-intelligence"></i>
-            </div>
-            <h3>Networking Services</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-            <div class="services-btn">
-              <a href="#" class="read-more"><i class="bi bi-arrow-right-short"></i> Read More</a>
-            </div>
-          </div>
+          <Service title="SEO Optimization"
+                   text="Boost your online visibility and rankings with our expert SEO optimizations for sustainable digital growth."
+                   icon="flaticon-code" />
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="single-services-item">
-            <div class="services-icon">
-              <i class="flaticon-code"></i>
-            </div>
-            <h3>SEO Optimization</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-            <div class="services-btn">
-              <a href="#" class="read-more"><i class="bi bi-arrow-right-short"></i> Read More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-services-item">
-            <div class="services-icon">
-              <i class="flaticon-mobile-app"></i>
-            </div>
-            <h3>Apps Development</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</p>
-            <div class="services-btn">
-              <a href="#" class="read-more"><i class="bi bi-arrow-right-short"></i> Read More</a>
-            </div>
-          </div>
+
+          <Service title="Apps Development"
+                   text="Transforming ideas into exceptional mobile experiences with our expert app development solutions."
+                   icon="flaticon-mobile-app" />
         </div>
       </div>
     </div>
@@ -144,7 +105,7 @@
           <div class="about-content">
             <h6 class="sub-title">About Our Company</h6>
             <h2>Providing Your Business With A Quality IT Service is Our Passion</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim</p>
+            <p>Fulfilling your business needs with a passion for delivering top-notch IT services.</p>
             <div class="skills">
               <div class="skill-item">
                 <h6>IT Consulting <em>90%</em></h6>
@@ -197,7 +158,7 @@
           <div class="overview-content">
             <h6 class="sub-title">Why Choose Us?</h6>
             <h2>Safeguard Your Brand with Cyber Security and IT Solutions</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Fortify your brand's resilience with robust cybersecurity and tailored IT solutions.</p>
             <ul class="features-list">
               <li> <span>Remote IT Assistance</span></li>
               <li> <span>Cloud Services</span></li>
@@ -221,7 +182,7 @@
           <div class="overview-content">
             <h6 class="sub-title">WHY TRUST US?</h6>
             <h2>Achieve Digital Transformation For Your Retail Business Services</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Embark on a journey of digital transformation to redefine and elevate your organizational capabilities.</p>
             <ul class="features-list">
               <li> <span>Protect your Business</span></li>
               <li> <span>Network Security</span></li>
@@ -494,10 +455,11 @@
               <div class="blog-text">
                 <h3>
                   <a href="single-blog.html">
-                    Planning for a Safe Return to the Workplace IT Solutions
+                    Demystifying the World of APIs: A Comprehensive Guide for Software Developers
                   </a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed eiusmod tempor incididunt ut labore dolore magna aliqua</p>
+                <p>Explore the fundamentals of APIs (Application Programming Interfaces),
+                  breaking down the concept for beginners and delving into advanced topics</p>
                 <div class="blog-btn"> <a href="single-blog.html" class="read-more"><i class="bi bi-arrow-right-short"></i> Read More</a>
                 </div>
               </div>
@@ -523,10 +485,10 @@
               <div class="blog-text">
                 <h3>
                   <a href="single-blog.html">
-                    Announcing Our New Smiles for Success Charity
+                    Behind the Scenes: A Deep Dive into Agile Software Development Methodology
                   </a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed eiusmod tempor incididunt ut labore dolore magna aliqua</p>
+                <p>Share practical insights into implementing Agile practices, including Scrum and Kanban, with real-world examples of successful Agile projects</p>
                 <div class="blog-btn">
                   <a href="single-blog.html" class="read-more"><i class="bi bi-arrow-right-short"></i> Read More</a>
                 </div>
@@ -553,10 +515,10 @@
               <div class="blog-text">
                 <h3>
                   <a href="single-blog.html">
-                    Machine Learning Applications for Every Industry
+                    From Legacy Systems to Modern Solutions: Strategies for Successful Software Migration Projects
                   </a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed eiusmod tempor incididunt ut labore dolore magna aliqua</p>
+                <p>Address the challenges and risks associated with migrating from legacy systems to modern solutions</p>
                 <div class="blog-btn">
                   <a href="single-blog.html" class="read-more"><i class="bi bi-arrow-right-short"></i> Read More</a>
                 </div>
@@ -577,10 +539,13 @@
           <div class="hire-content">
             <h6 class="sub-title">Want to work with us?</h6>
             <h2>Digitally Transform & Grow Your Business</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud consectetur voluptatem accusantium doloremque adipiscing elit.</p>
+            <p>
+              Empower your business through digital transformation,
+              unlocking growth opportunities and embracing the future. Transform today, thrive tomorrow.
+            </p>
             <div class="hire-btn">
               <a class="default-btn" href="tel:+233248284049">Call Now<span></span></a>
-              <a class="default-btn-one" href="contact.html">Contact Us<span></span></a>
+              <router-link to="/contact" class="default-btn-one" >Contact Us<span></span></router-link>
             </div>
           </div>
         </div>
