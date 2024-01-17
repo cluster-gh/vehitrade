@@ -32,7 +32,7 @@
           <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="single-footer-widget">
               <a class="footer-logo" href="#">
-                <img src="/assets/img/logo.png" class="white-logo" alt="logo">
+                <img src="./../assets/img/logo.png" class="white-logo" alt="logo">
               </a>
               <p>
                 We are a dynamic software development agency dedicated to crafting cutting-edge solutions

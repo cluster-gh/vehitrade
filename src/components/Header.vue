@@ -11,8 +11,8 @@
         <div class="techvio-responsive-menu">
           <div class="logo">
             <router-link to="/">
-              <img src="/assets/img/logo.png" class="white-logo" alt="logo">
-              <img src="/assets/img/logo-black.png" class="black-logo" alt="logo">
+              <img src="./../assets/img/logo.png" class="white-logo" alt="logo">
+              <img src="./../assets/img/logo-black.png" class="black-logo" alt="logo">
             </router-link>
           </div>
         </div>
@@ -22,8 +22,8 @@
       <div class="container">
         <nav class="navbar navbar-expand-md navbar-light">
           <router-link to="/" class="navbar-brand">
-            <img src="/assets/img/logo.png" class="white-logo" alt="logo">
-            <img src="/assets/img/logo-black.png" class="black-logo" alt="logo">
+            <img src="./../assets/img/logo.png" class="white-logo" alt="logo">
+            <img src="./../assets/img/logo-black.png" class="black-logo" alt="logo">
           </router-link>
           <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
             <ul class="navbar-nav">

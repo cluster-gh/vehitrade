@@ -36,7 +36,7 @@
             </div>
             <div class="col-lg-6 col-md-12" data-tilt>
               <div class="banner-image">
-                <img src="/assets/img/home-font.png" alt="image">
+                <img src="./../assets/img/home-font.png" alt="image">
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@
       </div>
     </div>
     <div class="creative-shape">
-      <img src="/assets/img/home-bottom-shape.png" alt="svg shape">
+      <img src="./../assets/img/home-bottom-shape.png" alt="svg shape">
     </div>
   </div>
   <!-- End Home Section -->
@@ -172,7 +172,7 @@
         </div>
         <div class="col-lg-6 col-md-12">
           <div class="about-image">
-            <img src="/assets/img/about.jpg" alt="About image">
+            <img src="./../assets/img/about.jpg" alt="About image">
             <div class="years-design">
               <h2>23</h2>
               <h5>Years Of Experience</h5>
@@ -190,7 +190,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div class="overview-image">
-            <img src="/assets/img/choose-1.png" alt="image">
+            <img src="./../assets/img/choose-1.png" alt="image">
           </div>
         </div>
         <div class="col-lg-6">
@@ -234,7 +234,7 @@
         </div>
         <div class="col-lg-6">
           <div class="overview-image-2">
-            <img src="/assets/img/choose-2.png" alt="image">
+            <img src="./../assets/img/choose-2.png" alt="image">
           </div>
         </div>
       </div>
@@ -322,7 +322,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation.</p>
               </div>
               <div class="avatar">
-                <img src="/assets/img/testimonial-1.jpg" alt="testimonial images">
+                <img src="./../assets/img/testimonial-1.jpg" alt="testimonial images">
               </div>
               <div class="testimonial-bio">
                 <div class="bio-info">
@@ -346,7 +346,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation.</p>
               </div>
               <div class="avatar">
-                <img src="/assets/img/testimonial-2.jpg" alt="testimonial images">
+                <img src="./../assets/img/testimonial-2.jpg" alt="testimonial images">
               </div>
               <div class="testimonial-bio">
                 <div class="bio-info">
@@ -370,7 +370,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation.</p>
               </div>
               <div class="avatar">
-                <img src="/assets/img/testimonial-3.jpg" alt="testimonial images">
+                <img src="./../assets/img/testimonial-3.jpg" alt="testimonial images">
               </div>
               <div class="testimonial-bio">
                 <div class="bio-info">
@@ -399,7 +399,7 @@
         <div class="col-lg-3 col-md-6">
           <div class="single-team-box">
             <div class="team-image">
-              <img src="/assets/img/team-1.jpg" alt="team">
+              <img src="./../assets/img/team-1.jpg" alt="team">
               <div class="team-social-icon">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -415,7 +415,7 @@
         <div class="col-lg-3 col-md-6">
           <div class="single-team-box">
             <div class="team-image">
-              <img src="/assets/img/team-2.jpg" alt="team">
+              <img src="./../assets/img/team-2.jpg" alt="team">
               <div class="team-social-icon">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -431,7 +431,7 @@
         <div class="col-lg-3 col-md-6">
           <div class="single-team-box">
             <div class="team-image">
-              <img src="/assets/img/team-3.jpg" alt="team">
+              <img src="./../assets/img/team-3.jpg" alt="team">
               <div class="team-social-icon">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -447,7 +447,7 @@
         <div class="col-lg-3 col-md-6">
           <div class="single-team-box">
             <div class="team-image">
-              <img src="/assets/img/team-4.jpg" alt="team">
+              <img src="./../assets/img/team-4.jpg" alt="team">
               <div class="team-social-icon">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -479,7 +479,7 @@
           <div class="blog-single-item">
             <div class="blog-image">
               <a href="single-blog.html">
-                <img src="/assets/img/blog-1.jpg" alt="image">
+                <img src="./../assets/img/blog-1.jpg" alt="image">
               </a>
             </div>
             <div class="blog-description">
@@ -508,7 +508,7 @@
           <div class="blog-single-item">
             <div class="blog-image">
               <a href="single-blog.html">
-                <img src="/assets/img/blog-2.jpg" alt="image">
+                <img src="./../assets/img/blog-2.jpg" alt="image">
               </a>
             </div>
             <div class="blog-description">
@@ -538,7 +538,7 @@
           <div class="blog-single-item">
             <div class="blog-image">
               <a href="single-blog.html">
-                <img src="/assets/img/blog-3.jpg" alt="image">
+                <img src="./../assets/img/blog-3.jpg" alt="image">
               </a>
             </div>
             <div class="blog-description">
@@ -599,47 +599,47 @@
       <div class="partner-list">
         <div class="partner-item">
           <a href="#0">
-            <img src="/assets/img/client-1.png" alt="image">
+            <img src="./../assets/img/client-1.png" alt="image">
           </a>
         </div>
         <div class="partner-item">
           <a href="#0">
-            <img src="/assets/img/client-2.png" alt="image">
+            <img src="./../assets/img/client-2.png" alt="image">
           </a>
         </div>
         <div class="partner-item">
           <a href="#0">
-            <img src="/assets/img/client-3.png" alt="image">
+            <img src="./../assets/img/client-3.png" alt="image">
           </a>
         </div>
         <div class="partner-item">
           <a href="#0">
-            <img src="/assets/img/client-4.png" alt="image">
+            <img src="./../assets/img/client-4.png" alt="image">
           </a>
         </div>
         <div class="partner-item">
           <a href="#0">
-            <img src="/assets/img/client-5.png" alt="image">
+            <img src="./../assets/img/client-5.png" alt="image">
           </a>
         </div>
         <div class="partner-item">
           <a href="#0">
-            <img src="/assets/img/client-6.png" alt="image">
+            <img src="./../assets/img/client-6.png" alt="image">
           </a>
         </div>
         <div class="partner-item">
           <a href="#0">
-            <img src="/assets/img/client-7.png" alt="image">
+            <img src="./../assets/img/client-7.png" alt="image">
           </a>
         </div>
         <div class="partner-item">
           <a href="#0">
-            <img src="/assets/img/client-8.png" alt="image">
+            <img src="./../assets/img/client-8.png" alt="image">
           </a>
         </div>
         <div class="partner-item">
           <a href="#0">
-            <img src="/assets/img/client-9.png" alt="image">
+            <img src="./../assets/img/client-9.png" alt="image">
           </a>
         </div>
       </div>
