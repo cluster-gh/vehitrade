@@ -1,6 +1,8 @@
 <script setup lang="ts">
 
 import Service from "../components/Service.vue";
+import {blogs} from '../utils/data'
+import Blog from "../components/Blog.vue";
 </script>
 
 <template>
@@ -17,12 +19,6 @@ import Service from "../components/Service.vue";
           <div class="row align-items-center">
             <div class="col-lg-6 col-md-12">
               <div class="main-banner-content">
-                <ul class="social-icon-list">
-                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                  <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                </ul>
                 <h1>IT Solutions & Business Services Company</h1>
                 <p>
                   Software development agency dedicated to crafting cutting-edge solutions
@@ -127,7 +123,7 @@ import Service from "../components/Service.vue";
               </div>
             </div>
             <div class="about-btn-box">
-              <a class="default-btn" href="about.html">Learn More <span></span></a>
+              <router-link class="default-btn" to="/about">Learn More <span></span></router-link>
             </div>
           </div>
         </div>
@@ -135,7 +131,7 @@ import Service from "../components/Service.vue";
           <div class="about-image">
             <img src="./../assets/img/about.jpg" alt="About image">
             <div class="years-design">
-              <h2>23</h2>
+              <h2>5+</h2>
               <h5>Years Of Experience</h5>
             </div>
           </div>
@@ -203,229 +199,6 @@ import Service from "../components/Service.vue";
   </section>
   <!-- End Overview Section -->
 
-  <!-- Start Counter Section -->
-  <section class="counter-area section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 counter-item">
-          <div class="single-counter">
-            <div class="counter-contents">
-              <h2>
-                <span class="counter-number">23</span>
-                <span>+</span>
-              </h2>
-              <h3 class="counter-heading">Years Helping Business</h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 counter-item">
-          <div class="single-counter">
-            <div class="counter-contents">
-              <h2>
-                <span class="counter-number">250</span>
-                <span>+</span>
-              </h2>
-              <h3 class="counter-heading">Working Employees</h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 counter-item">
-          <div class="single-counter">
-            <div class="counter-contents">
-              <h2>
-                <span class="counter-number">4500</span>
-                <span>+</span>
-              </h2>
-              <h3 class="counter-heading">Complete Projects</h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 counter-item">
-          <div class="single-counter">
-            <div class="counter-contents">
-              <h2>
-                <span class="counter-number">3000</span>
-                <span>+</span>
-              </h2>
-              <h3 class="counter-heading">Happy Customers</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Counter Section -->
-
-  <!-- Start Testimonial Section -->
-  <section class="testimonial-section pt-100 pb-50">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-title">
-            <h6 class="sub-title">Our Testimonial</h6>
-            <h2>Client Feedback</h2>
-          </div>
-        </div>
-        <div class="col-lg-12 col-md-12">
-          <div class="testimonial-slider owl-carousel owl-theme">
-            <!-- testimonials item -->
-            <div class="single-testimonial">
-              <div class="rating-box">
-                <ul>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                </ul>
-              </div>
-              <div class="testimonial-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation.</p>
-              </div>
-              <div class="avatar">
-                <img src="./../assets/img/testimonial-1.jpg" alt="testimonial images">
-              </div>
-              <div class="testimonial-bio">
-                <div class="bio-info">
-                  <h3>Saabir al-Obeid</h3>
-                  <span>Turkey</span>
-                </div>
-              </div>
-            </div>
-            <!-- testimonials item -->
-            <div class="single-testimonial">
-              <div class="rating-box">
-                <ul>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                </ul>
-              </div>
-              <div class="testimonial-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation.</p>
-              </div>
-              <div class="avatar">
-                <img src="./../assets/img/testimonial-2.jpg" alt="testimonial images">
-              </div>
-              <div class="testimonial-bio">
-                <div class="bio-info">
-                  <h3>Zahra Burnett</h3>
-                  <span>United States</span>
-                </div>
-              </div>
-            </div>
-            <!-- testimonials item -->
-            <div class="single-testimonial">
-              <div class="rating-box">
-                <ul>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                </ul>
-              </div>
-              <div class="testimonial-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation.</p>
-              </div>
-              <div class="avatar">
-                <img src="./../assets/img/testimonial-3.jpg" alt="testimonial images">
-              </div>
-              <div class="testimonial-bio">
-                <div class="bio-info">
-                  <h3>Stevie Wills</h3>
-                  <span>Germany</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Testimonial Section -->
-
-  <!-- Start Team Section -->
-  <section class="team-area section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-title">
-            <h6 class="sub-title">Team Member</h6>
-            <h2>Expert Team</h2>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="single-team-box">
-            <div class="team-image">
-              <img src="./../assets/img/team-1.jpg" alt="team">
-              <div class="team-social-icon">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="team-info">
-              <h3>Ava Farrington</h3>
-              <span>Founder, CEO</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="single-team-box">
-            <div class="team-image">
-              <img src="./../assets/img/team-2.jpg" alt="team">
-              <div class="team-social-icon">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="team-info">
-              <h3>Kevin Haley</h3>
-              <span>Co-Founder, CTO</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="single-team-box">
-            <div class="team-image">
-              <img src="./../assets/img/team-3.jpg" alt="team">
-              <div class="team-social-icon">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="team-info">
-              <h3>Alishia Fulton</h3>
-              <span>Chief Creative Officer</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="single-team-box">
-            <div class="team-image">
-              <img src="./../assets/img/team-4.jpg" alt="team">
-              <div class="team-social-icon">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="team-info">
-              <h3>Lucas Martinez</h3>
-              <span>Creative Director</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Team Section -->
-
   <!-- Start Blog Section -->
   <section class="blog-section bg-grey pt-100 pb-70">
     <div class="container">
@@ -436,96 +209,13 @@ import Service from "../components/Service.vue";
             <h2>Recent Blog</h2>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="blog-single-item">
-            <div class="blog-image">
-              <a href="single-blog.html">
-                <img src="./../assets/img/blog-1.jpg" alt="image">
-              </a>
-            </div>
-            <div class="blog-description">
-              <ul class="blog-info">
-                <li>
-                  <a href="#"><i class="bi bi-person-circle"></i> Author</a>
-                </li>
-                <li>
-                  <a href="#"><i class="bi bi-calendar-check"></i> 17 June 2024</a>
-                </li>
-              </ul>
-              <div class="blog-text">
-                <h3>
-                  <a href="single-blog.html">
-                    Demystifying the World of APIs: A Comprehensive Guide for Software Developers
-                  </a>
-                </h3>
-                <p>Explore the fundamentals of APIs (Application Programming Interfaces),
-                  breaking down the concept for beginners and delving into advanced topics</p>
-                <div class="blog-btn"> <a href="single-blog.html" class="read-more"><i class="bi bi-arrow-right-short"></i> Read More</a>
-                </div>
-              </div>
-            </div>
+
+        <template v-for="blog in blogs.slice(0,3)" :key="blog.id">
+          <div class="col-lg-4 col-md-6">
+          <Blog :blog="blog"></Blog>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="blog-single-item">
-            <div class="blog-image">
-              <a href="single-blog.html">
-                <img src="./../assets/img/blog-2.jpg" alt="image">
-              </a>
-            </div>
-            <div class="blog-description">
-              <ul class="blog-info">
-                <li>
-                  <a href="#"><i class="bi bi-person-circle"></i> Author</a>
-                </li>
-                <li>
-                  <a href="#"><i class="bi bi-calendar-check"></i> 20 June 2024</a>
-                </li>
-              </ul>
-              <div class="blog-text">
-                <h3>
-                  <a href="single-blog.html">
-                    Behind the Scenes: A Deep Dive into Agile Software Development Methodology
-                  </a>
-                </h3>
-                <p>Share practical insights into implementing Agile practices, including Scrum and Kanban, with real-world examples of successful Agile projects</p>
-                <div class="blog-btn">
-                  <a href="single-blog.html" class="read-more"><i class="bi bi-arrow-right-short"></i> Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="blog-single-item">
-            <div class="blog-image">
-              <a href="single-blog.html">
-                <img src="./../assets/img/blog-3.jpg" alt="image">
-              </a>
-            </div>
-            <div class="blog-description">
-              <ul class="blog-info">
-                <li>
-                  <a href="#"><i class="bi bi-person-circle"></i> Author</a>
-                </li>
-                <li>
-                  <a href="#"><i class="bi bi-calendar-check"></i> 25 June 2024</a>
-                </li>
-              </ul>
-              <div class="blog-text">
-                <h3>
-                  <a href="single-blog.html">
-                    From Legacy Systems to Modern Solutions: Strategies for Successful Software Migration Projects
-                  </a>
-                </h3>
-                <p>Address the challenges and risks associated with migrating from legacy systems to modern solutions</p>
-                <div class="blog-btn">
-                  <a href="single-blog.html" class="read-more"><i class="bi bi-arrow-right-short"></i> Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        </template>
+    
       </div>
     </div>
   </section>
@@ -553,64 +243,6 @@ import Service from "../components/Service.vue";
     </div>
   </section>
   <!-- End Hire Section -->
-
-  <!-- Start Partner section -->
-  <section class="partner-section pt-100 pb-70">
-    <div class="container">
-      <div class="partner-title">
-        <h6 class="sub-title">Trusted By Over 1500</h6>
-        <h2>Our Customers</h2>
-      </div>
-      <div class="partner-list">
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-1.png" alt="image">
-          </a>
-        </div>
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-2.png" alt="image">
-          </a>
-        </div>
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-3.png" alt="image">
-          </a>
-        </div>
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-4.png" alt="image">
-          </a>
-        </div>
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-5.png" alt="image">
-          </a>
-        </div>
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-6.png" alt="image">
-          </a>
-        </div>
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-7.png" alt="image">
-          </a>
-        </div>
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-8.png" alt="image">
-          </a>
-        </div>
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-9.png" alt="image">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Partner section -->
 
 
 </div>

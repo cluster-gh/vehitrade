@@ -109,137 +109,6 @@
   </section>
   <!-- End About Section -->
 
-  <!-- Start Counter Section -->
-  <section class="counter-area section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 counter-item">
-          <div class="single-counter">
-            <div class="counter-contents">
-              <h2>
-                <span class="counter-number">23</span>
-                <span>+</span>
-              </h2>
-              <h3 class="counter-heading">Years Helping Business</h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 counter-item">
-          <div class="single-counter">
-            <div class="counter-contents">
-              <h2>
-                <span class="counter-number">250</span>
-                <span>+</span>
-              </h2>
-              <h3 class="counter-heading">Working Employees</h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 counter-item">
-          <div class="single-counter">
-            <div class="counter-contents">
-              <h2>
-                <span class="counter-number">4500</span>
-                <span>+</span>
-              </h2>
-              <h3 class="counter-heading">Complete Projects</h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 counter-item">
-          <div class="single-counter">
-            <div class="counter-contents">
-              <h2>
-                <span class="counter-number">3000</span>
-                <span>+</span>
-              </h2>
-              <h3 class="counter-heading">Happy Customers</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Counter Section -->
-
-  <!-- Start Team Section -->
-  <section class="team-area section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-title">
-            <h6 class="sub-title">Team Member</h6>
-            <h2>Expert Team</h2>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="single-team-box">
-            <div class="team-image">
-              <img src="./../assets/img/team-1.jpg" alt="team">
-              <div class="team-social-icon">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="team-info">
-              <h3>Ava Farrington</h3>
-              <span>Founder, CEO</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="single-team-box">
-            <div class="team-image">
-              <img src="./../assets/img/team-2.jpg" alt="team">
-              <div class="team-social-icon">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="team-info">
-              <h3>Kevin Haley</h3>
-              <span>Co-Founder, CTO</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="single-team-box">
-            <div class="team-image">
-              <img src="./../assets/img/team-3.jpg" alt="team">
-              <div class="team-social-icon">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="team-info">
-              <h3>Alishia Fulton</h3>
-              <span>Chief Creative Officer</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="single-team-box">
-            <div class="team-image">
-              <img src="./../assets/img/team-4.jpg" alt="team">
-              <div class="team-social-icon">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-              </div>
-            </div>
-            <div class="team-info">
-              <h3>Lucas Martinez</h3>
-              <span>Creative Director</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Team Section -->
 
   <!-- Start Works Process Section -->
   <section class="workprocess-section bg-grey section-padding">
@@ -312,10 +181,13 @@
           <div class="hire-content">
             <h6 class="sub-title">Want to work with us?</h6>
             <h2>Digitally Transform & Grow Your Business</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud consectetur voluptatem accusantium doloremque adipiscing elit.</p>
+            <p>
+              Empower your business through digital transformation,
+              unlocking growth opportunities and embracing the future. Transform today, thrive tomorrow.
+            </p>
             <div class="hire-btn">
-              <a class="default-btn" href="tel:12345678">Call Now<span></span></a>
-              <a class="default-btn-one" href="contact.html">Contact Us<span></span></a>
+              <a class="default-btn" href="tel:+233248284049">Call Now<span></span></a>
+              <router-link class="default-btn-one" to="/contact">Contact Us<span></span></router-link>
             </div>
           </div>
         </div>
@@ -323,64 +195,6 @@
     </div>
   </section>
   <!-- End Hire Section -->
-
-  <!-- Start Partner section -->
-  <section class="partner-section pt-100 pb-70">
-    <div class="container">
-      <div class="partner-title">
-        <h6 class="sub-title">Trusted By Over 1500</h6>
-        <h2>Our Customers</h2>
-      </div>
-      <div class="partner-list">
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-1.png" alt="image">
-          </a>
-        </div>
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-2.png" alt="image">
-          </a>
-        </div>
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-3.png" alt="image">
-          </a>
-        </div>
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-4.png" alt="image">
-          </a>
-        </div>
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-5.png" alt="image">
-          </a>
-        </div>
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-6.png" alt="image">
-          </a>
-        </div>
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-7.png" alt="image">
-          </a>
-        </div>
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-8.png" alt="image">
-          </a>
-        </div>
-        <div class="partner-item">
-          <a href="#0">
-            <img src="./../assets/img/client-1.png" alt="image">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Partner section -->
 
 </template>
 

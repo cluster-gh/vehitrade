@@ -11,8 +11,7 @@
         <div class="techvio-responsive-menu">
           <div class="logo">
             <router-link to="/">
-              <img src="./../assets/img/logo.png" class="white-logo" alt="logo">
-              <img src="./../assets/img/logo-black.png" class="black-logo" alt="logo">
+              CLUSTER
             </router-link>
           </div>
         </div>
@@ -21,9 +20,8 @@
     <div class="techvio-nav">
       <div class="container">
         <nav class="navbar navbar-expand-md navbar-light">
-          <router-link to="/" class="navbar-brand">
-            <img src="./../assets/img/logo.png" class="white-logo" alt="logo">
-            <img src="./../assets/img/logo-black.png" class="black-logo" alt="logo">
+          <router-link to="/" class="navbar-brand text-white font-weight-bold">
+         <b> CLUSTER</b>
           </router-link>
           <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
             <ul class="navbar-nav">
@@ -43,7 +41,7 @@
               </li>
             </ul>
             <div class="other-option">
-              <a class="default-btn" href="mailto:demo@example.com">Get IT Support <span></span></a>
+              <router-link class="default-btn" to="/contact">Get IT Support <span></span></router-link>
             </div>
           </div>
         </nav>

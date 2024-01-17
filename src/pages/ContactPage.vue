@@ -72,45 +72,6 @@
   </div>
   <!-- End Contact Section -->
 
-  <!-- Start Contact Info Section -->
-  <section class="contact-info-wrapper bg-grey">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-title">
-            <h6 class="sub-title">Find Us</h6>
-            <h2>Contact Info</h2>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="contact-info-content">
-            <h5>USA Headquarter</h5>
-            <p>304 NW St Homestead, Florida, Melrose Street, Water Mill, 76B Overlook Drive Chester, PA 19013, Flemingsburg USA.</p>
-            <a href="tel:12345678">080 707 555-321</a>
-            <a href="mailto:demo@example.com">demo@example.com</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="contact-info-content">
-            <h5>New York Office</h5>
-            <p>1540 Pecks Ridge Tilton Rd Flemingsburg, Kentucky(KY), 4104188 Fulton Street Blackwood, NJ 08012, London.</p>
-            <a href="tel:12345678">080 707 555-321</a>
-            <a href="mailto:demo@example.com">demo@example.com</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="contact-info-content">
-            <h5>Panama Office</h5>
-            <p>103 Richard Ave Ashville, Ohio, Water Mill,3468 16th Hwy Pangburn, Arkansas(AR), Charolais Ashville, Virginia, Panama.</p>
-            <a href="tel:12345678">080 707 555-321</a>
-            <a href="mailto:demo@example.com">demo@example.com</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Contact Info Section -->
-
   <!-- Start Map Section -->
   <div class="map-section">
     <div class="google-map">
