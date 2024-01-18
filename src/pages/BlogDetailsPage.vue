@@ -87,7 +87,7 @@ const blog = computed(() =>{
                 </div>
               </div>
             </div>
-            <div class="comments-area">
+            <!-- <div class="comments-area">
               <h3 class="comments-title">3 Comments:</h3>
               <ol class="comment-list">
                 <li class="comment">
@@ -185,7 +185,7 @@ const blog = computed(() =>{
                   </p>
                 </form>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="col-lg-4 col-md-12">
