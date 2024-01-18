@@ -3,7 +3,6 @@
 </script>
 
 <template>
-
   <!-- Start Page Title Section -->
   <div class="page-title-area">
     <div class="d-table">
@@ -30,9 +29,11 @@
           <div class="feature-single-item">
             <img src="./../assets/img/feature-icon-1.svg" alt="icon">
             <h3>Flexibility & Responsive</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam</p>
+            <p>Experience seamless browsing on any device with our adaptable design. Whether you're on a desktop, tablet,
+              or smartphone, our content adjusts for optimal usability and visual appeal, ensuring a consistent and
+              enjoyable user experience.</p>
             <div class="feature-btn-box">
-              <a href="#" class="read-more"><i class="bi bi-arrow-right-short"></i> Learn More</a>
+              <!-- <a href="#" class="read-more"><i class="bi bi-arrow-right-short"></i> Learn More</a> -->
             </div>
           </div>
         </div>
@@ -40,9 +41,11 @@
           <div class="feature-single-item">
             <img src="./../assets/img/feature-icon-2.svg" alt="icon">
             <h3>Dedicated Teams</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam</p>
+            <p>Empower your projects with our dedicated teams. Committed to excellence, our skilled professionals
+              collaborate seamlessly to deliver tailored solutions, ensuring your vision is realized with precision and
+              efficiency</p>
             <div class="feature-btn-box">
-              <a href="#" class="read-more"><i class="bi bi-arrow-right-short"></i> Learn More</a>
+              <!-- <a href="#" class="read-more"><i class="bi bi-arrow-right-short"></i> Learn More</a> -->
             </div>
           </div>
         </div>
@@ -50,14 +53,17 @@
           <div class="feature-single-item">
             <img src="./../assets/img/feature-icon-3.svg" alt="icon">
             <h3>Focusing on Business</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam</p>
+            <p>Sharpen your business edge with our dedicated focus. From strategy to execution, we prioritize your goals,
+              providing tailored solutions that drive success. Experience a partner dedicated to amplifying your business
+              vision</p>
             <div class="feature-btn-box">
-              <a href="#" class="read-more"><i class="bi bi-arrow-right-short"></i> Learn More</a>
+              <!-- <a href="#" class="read-more"><i class="bi bi-arrow-right-short"></i> Learn More</a> -->
             </div>
           </div>
         </div>
       </div>
     </div>
+
   </section>
   <!-- End Feature Section -->
 
@@ -69,7 +75,9 @@
           <div class="about-content">
             <h6 class="sub-title">About Our Company</h6>
             <h2>Providing Your Business With A Quality IT Service is Our Passion</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim</p>
+            <p>Elevate your business with our passion for quality IT services. Committed to excellence, we deliver
+              tailored solutions that empower your operations. Experience the difference as we passionately optimize your
+              IT landscape for success.</p>
             <div class="skills">
               <div class="skill-item">
                 <h6>IT Consulting <em>90%</em></h6>
@@ -127,7 +135,9 @@
             </div>
             <div class="workprocess-info">
               <h3>Discover</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua.</p>
+              <p>Embark on a journey of discovery with us. Uncover innovative solutions and opportunities tailored to your
+                needs. Experience a partnership that fuels curiosity and propels your endeavors forward, transforming
+                possibilities into reality.</p>
             </div>
             <div class="workprocess-number-bg"><span>01</span></div>
           </div>
@@ -139,7 +149,9 @@
             </div>
             <div class="workprocess-info">
               <h3>Design & Development</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua.</p>
+              <p>Unlock creativity and precision with our design and development expertise. From conceptualization to
+                execution, we craft tailored solutions that elevate your brand. Experience a fusion of artistry and
+                functionality, bringing your vision to life seamlessly</p>
             </div>
             <div class="workprocess-number-bg"><span>02</span></div>
           </div>
@@ -151,7 +163,9 @@
             </div>
             <div class="workprocess-info">
               <h3>Install & Testing</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua.</p>
+              <p>Ensure seamless operations with our expert install and testing services. From installation to rigorous
+                testing, we meticulously optimize every detail. Experience reliability as we ensure your systems function
+                flawlessly, meeting the highest standards of performance and quality.</p>
             </div>
             <div class="workprocess-number-bg"><span>03</span></div>
           </div>
@@ -163,7 +177,9 @@
             </div>
             <div class="workprocess-info">
               <h3>Project Delivery</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua.</p>
+              <p>Elevate your expectations with our project delivery expertise. From initiation to completion, we ensure
+                timely and precise execution. Experience seamless project realization as we navigate complexities,
+                delivering excellence with a focus on your goals and satisfaction</p>
             </div>
             <div class="workprocess-number-bg"><span>04</span></div>
           </div>
@@ -195,9 +211,6 @@
     </div>
   </section>
   <!-- End Hire Section -->
-
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
